@@ -8,9 +8,7 @@ namespace CS3358_FA2024_A5P2
    // typedef std::size_t size_type;
 
    cnPtrQueue::cnPtrQueue(): numItems(0)
-   {
-      // std::cout << "constructor" << std::endl;
-   }
+   { }
 
    bool cnPtrQueue::empty() const
    {

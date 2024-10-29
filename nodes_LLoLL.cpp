@@ -5,20 +5,6 @@ using namespace std;
 
 namespace CS3358_FA2024_A5P2
 {
-	
-   // if (head == 0) return
-   // create queue q of CNode*
-   // while (head != 0)
-   //    if (head->data != 0)
-   //       q.push(head->data)
-   //    head = head->link;
-   // while ( ! q.empty() )
-   //    cursor = q.front()
-   //    q.pop()
-   //    display cursor->data
-   //    if ( cursor->link != 0 )
-   //       q.push( cursor->link )
-
    // do breadth-first (level) traversal and print data
    void ShowAll_BF(PNode* pListHead, ostream& outs)
    {
